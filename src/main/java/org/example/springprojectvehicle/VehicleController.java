@@ -1,6 +1,5 @@
 package org.example.springprojectvehicle;
 
-import org.junit.jupiter.api.Tag;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
