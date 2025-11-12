@@ -1,4 +1,4 @@
-package org.example.springprojectvehicle;
+package org.example.springprojectvehicle.modele;
 
 public class Vehicle {
     private int id;
