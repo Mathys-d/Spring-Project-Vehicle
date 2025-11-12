@@ -4,7 +4,6 @@ import org.example.springprojectvehicle.VehicleRepository;
 import org.example.springprojectvehicle.modele.Vehicle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.Optional;
 
@@ -41,7 +40,6 @@ public class VehicleController {
     public Vehicle addVehicle(
             @RequestBody Vehicle vehicle
     ) throws Exception {
-        RestTemplate restTemplate = new RestTemplate();
         return vehicleRepository.save(vehicle);
     }
 
